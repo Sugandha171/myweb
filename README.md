@@ -1,1 +1,1 @@
-# A dummy website for computer screen & Tab screen view.
+# A dummy webpage for computer screen & Tab screen view.
