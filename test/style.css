@@ -1,0 +1,433 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: monteserrat;
+	background-color: #fff;
+	
+}
+nav{
+	background-size: 170px;
+	background-color: #fff;
+	height: 100px;
+	line-height: 100px;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+label #btn, label #cancel{
+	color: black;
+	font-size: 30px;
+	float: left;
+	line-height: 80px;
+	margin-left: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
+nav .left{
+	float: right;
+	margin-right: 10px;
+	height: 100px;
+	font-size: 24px;
+}
+nav .left li{
+	display:inline-block;
+	line-height: 10px;
+	margin: 0 5px;
+}
+nav ul li:hover{
+	color: orange;
+}
+nav ul li a:hover{
+	color: red;
+}
+nav .right{
+	float: left;
+	margin-left: 10px;
+	height: 100px;
+	overflow: hidden;
+}
+nav .right li{
+	display:inline-block;
+	line-height: 10px;
+	margin: 0 5px;
+}
+button:hover{
+	color: red;
+}
+.badge1, .badge{
+	font-size: 15px;
+}
+.right li a{
+	color: black;
+}
+.right .dropbtn,.dropbtn2,.dropbtn1,.dropbtn3{
+	font-size: 16px;
+	border:none;
+	outline: none;
+	/*color: black;*/
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1; 
+}
+/*.dropdown-content a{
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+.dropdown-content a:hover{
+	background-color: #ddd;
+}*/
+.logo{
+	font-size: 40px;
+	text-align: center;
+	padding: 0 250px;
+	transform: translateY(-50%);
+}
+.hb{
+	background-size: 170px;
+	background-color: #bcc6cc;
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	font-weight: 100px;
+	font-size: 20px;
+}
+.gray{
+	color:#6d7b8d;
+
+}
+.last{height: 80px;
+	line-height: 25px;
+	margin: 20px 10px 20px 10px;
+	padding: 20px 0px;
+	background-size: 170px;
+	background-color: #bcc6cc;
+	width: 1000px;
+	font-weight: 100px;
+	font-size: 20px;
+}
+div a span:hover{
+			color: orange;
+}
+div a a:hover{
+	color: orange;
+}
+/*---------------page-------------------------------*/
+#container{
+	margin: 5px 5px 5px 5px;
+}
+a figure{
+	display: inline-block;
+	margin: 10px 20px 10px 20px;
+}
+figcaption{
+	margin: 10px 0 0 0;
+	font-variant: small-caps;
+	font-family: arial;
+	font-weight: bold;
+	color: black;
+}
+figure{
+	padding: 5px;
+	height: 600px;
+	width: 700px;
+}
+img:hover{
+	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform:scale(1.1);
+
+}
+img{
+	transition: transform 0.2s;
+	-webkit-transition: -webkit-transform 0.2s; 
+	-moz-transition: -moz-transform 0.2s;
+	-o-transition: -o-transform 0.2s;
+	height: 600px;
+	width: 700px;
+
+}
+.last{
+	width: 95%;
+	margin:0px 30px 0px 20px;
+}
+.last a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+}
+.last a:hover{
+	background-color: #f1f1f1;
+	color: orange;
+}
+.previous{
+background-color: #f1f1f1;
+color: black;
+margin-left: 700px;
+}
+.one{
+background-color: #f1f1f1;
+color: orange;
+}
+.two{
+background-color: #f1f1f1;
+color: black;
+}
+.next{
+background-color: #f1f1f1;
+color: black;
+}
+.round{
+	border-radius: 2px;
+}
+/*--------------------get in touch---------------------------*/
+#touch{
+	background:#000;
+	color: #fff;
+	padding: 20px 0;
+	height: 200px;
+	margin: 20px 20px 0 20px;
+	width: 95%;
+}
+.container i{
+	float: left;
+	margin: 9px 10px 0px 40px;
+	font-size: 30px;
+}
+.container h1{
+	top: -37px;
+	margin: 0px 0px 10px 0px;
+	font-weight: 600px;
+	font-size: 40px;
+}
+.container h5{
+	margin: 0px 0px 15px 85px;
+	font-weight: 100px;
+	font-size: 20px;
+}
+#name{
+	position: relative;
+	left: 85px;
+	top: 10px;
+	
+}
+.email{
+	width: 450px;
+	height: 50px;
+	font-size: 16px;
+	color: #555;
+}
+.submit{
+	height: 50px;
+	width: 150px;
+}
+.submit:hover{
+			background-color: orange;
+			color: #fff;
+		}
+/*------footer-------*/
+#footer{
+	margin: 0px 0px 0px 0px;
+	height: 100px;
+}
+.copyright{
+	background-color: #fff;
+	margin-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.left .badge{
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	padding: 4px 4px;
+	border-radius: 50%;
+	background: orange;
+	color: white;
+}
+.left .badge1{
+	position: absolute;
+	top: 25px;
+	right: 50px;
+	padding: 4px 4px;
+	border-radius: 50%;
+	background: orange;
+	color: white;
+}
+/*----------------media refrences----------------------------*/
+@media(max-width: 1520px){
+	figure{
+	height: 600px;
+	width: 590px;
+	}
+	img{
+		height: 600px;
+		width: 590px;
+	}
+} 
+@media(max-width: 1300px){
+	.logo{
+		font-size: 30px;
+		text-align: center;
+		padding: 0px 10px 0px 150px;
+		transform: translateY(-50%);
+	}
+	.previous{
+	margin-left: 300px;
+	}
+	figure{
+	height: 600px;
+	width: 700px;
+	}
+	img{
+		height: 600px;
+		width: 700px;
+	}
+}
+
+@media(max-width: 1300px){
+	figure{
+	height: 500px;
+	width: 500px;
+	}
+	img{
+		height: 500px;
+		width: 500px;
+	}
+}
+@media(max-width: 1150px){
+	figure{
+	height: 650px;
+	width: 800px;
+	}
+	img{
+		height: 650px;
+		width: 800px;
+	}
+}
+@media(max-width: 1000px){
+	label #btn{
+		display: block;
+	}
+	.right{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background-color: orange;
+		top: 80px;
+		right: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	.right li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav .right li button, a{
+		font-size: 20px;
+	}
+	#check:checked ~ ul{
+		right:0;
+	}
+	#check:checked ~ label #btn{
+		display: none;
+	}
+	#check:checked ~ label #cancel{
+		display: block;
+	}
+}
+
+@media(max-width: 850px){
+	.logo{
+		font-size: 30px;
+		text-align: center;
+		padding: 0px 10px 0px 250px;
+		transform: translateY(-50%);
+	}
+	.email{
+	width: 250px;
+	height: 40px;
+	font-size: 16px;
+	color: #555;
+	}
+	.submit{
+		height: 40px;
+		width: 100px;
+	}
+	.previous{
+	margin-left: 100px;
+	}
+	.badge1, .badge{
+	font-size: 10px;
+	}
+	figure{
+	height: 650px;
+	width: 650px;
+	}
+	img{
+		height: 650px;
+		width: 650px;
+	}
+}
+@media(max-width: 700px){
+	figure{
+	height: 580px;
+	width: 540px;
+	}
+	img{
+		height: 580px;
+		width: 540px;
+	}
+}
+@media(max-width: 600px){
+	.previous{
+	margin-left: 20px;
+	}
+	nav .left{
+	float: right;
+	margin-right: 10px;
+	height: 100px;
+	font-size: 14px;
+	}
+	figure{
+	height: 500px;
+	width: 500px;
+	}
+	img{
+		height: 500px;
+		width: 500px;
+	}
+}
+@media(max-width: 550px){
+	figure{
+	height: 400px;
+	width: 450px;
+	}
+	img{
+		height: 400px;
+		width: 450px;
+	}
+}
